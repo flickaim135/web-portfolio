@@ -2,6 +2,16 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+.topnav{
+    float: right;
+}
+.active{
+    text-decoration: none;
+    font-size: 15px;
+    padding: 20px 10px;
+    color: black;
+    font-weight: 700;
+}
 h1{
     font-size: 50px;
 }
@@ -20,10 +30,6 @@ p{
 .half-width img{
     width: 100%;
 }
-.top-banner{
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
-}
 section{
     height: 500px;
     padding-bottom: 150px;
@@ -36,11 +42,7 @@ section{
     font-weight: 700;
     border-radius: 5px;
 }
-.dream-area{
-    background-image: url(images/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
-}
+
 .single-experience{
     box-shadow: 10px 10px 40px gray;
     border-radius: 5px;
