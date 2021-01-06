@@ -85,3 +85,8 @@ section{
     margin: 10px;
     
 }
+
+.work-inquiry img{
+    background-image: url(images/Group_33094_1.png);
+    background-repeat: none;
+}
