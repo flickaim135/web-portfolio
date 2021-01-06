@@ -86,7 +86,15 @@ section{
     
 }
 
-.work-inquiry img{
-    background-image: url(images/Group_33094_1.png);
-    background-repeat: none;
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
 }
